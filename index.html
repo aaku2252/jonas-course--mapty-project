@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">git rremote
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,10 +10,28 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
 
     <script defer src="script.js"></script>
-    <title>mapty // Map your workouts</title>
+    <!-- this is for google map API -->
+    <!-- <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&callback=initMap&v=weekly"
+    ></script> -->
+
+    <title>Mapty // Map your workouts</title>
   </head>
   <body>
     <div class="sidebar">
@@ -79,7 +97,7 @@
             <span class="workout__unit">spm</span>
           </div>
         </li>
-
+        
         <li class="workout workout--cycling" data-id="1234567891">
           <h2 class="workout__title">Cycling on April 5</h2>
           <div class="workout__details">
