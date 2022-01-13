@@ -292,3 +292,24 @@ class App {
 }
 
 const app = new App();
+
+//! to do
+// ability to edit a workout
+
+// ability to delete a workout
+
+// ability to delete all workout
+
+// ability to sort workouts by certain fields (eg distance)
+
+// rebuild Running and cycling object from local storage (add prototype chain, or recreate the object using local storage data)
+
+// more realistic error and confirmation messages about
+
+// Ability to position the map to show all workouts[very hard](check leaflet library)
+
+// ability to draw lines and shapes instead of just points[very hard](check leaflet library)
+
+// Geocode location from coordinates('mumbai') (third party library)(asynchrous javscript)
+
+// Display weather data for workout time and place(asaync javscript)
